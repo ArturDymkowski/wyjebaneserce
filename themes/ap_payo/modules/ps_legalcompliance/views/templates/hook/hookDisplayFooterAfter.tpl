@@ -1,5 +1,4 @@
-<?php
-/**
+{**
  * 2007-2016 PrestaShop
  *
  * NOTICE OF LICENSE
@@ -22,14 +21,27 @@
  *  @copyright  2007-2016 PrestaShop SA
  *  @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  *  International Registered Trademark & Property of PrestaShop SA
- */
+ *}
 
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
-
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
-
-header('Location: ../');
-exit;
+<div class="aeuc_footer_info">
+	{if isset($delivery_additional_information)}
+		* {$delivery_additional_information}
+		<a href="{$link_shipping}">{l s='Shipping and payment' d='Modules.Legalcompliance.Shop'}</a>
+	{else}
+		{if $tax_included}
+			{l s='All prices are mentioned tax included' d='Modules.Legalcompliance.Shop'}
+		{else}
+			{l s='All prices are mentioned tax excluded' d='Modules.Legalcompliance.Shop'}
+		{/if}
+		{if $show_shipping}
+			{l s='and' d='Modules.Legalcompliance.Shop'}
+			{if $link_shipping}
+				<a href="{$link_shipping}">
+			{/if}
+			{l s='shipping excluded' d='Modules.Legalcompliance.Shop'}
+			{if $link_shipping}
+				</a>
+			{/if}
+		{/if}
+	{/if}
+</div>

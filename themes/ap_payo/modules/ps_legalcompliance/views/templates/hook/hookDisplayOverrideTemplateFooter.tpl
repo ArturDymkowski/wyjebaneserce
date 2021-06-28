@@ -1,9 +1,11 @@
-{* 
-* @Module Name: AP Page Builder
-* @Website: apollotheme.com - prestashop template provider
-* @author Apollotheme <apollotheme@gmail.com>
-* @copyright Apollotheme
-* @description: ApPageBuilder is module help you can build content for your shop
-*}
 {extends file='checkout/checkout.tpl'}
 
+{block name='footer'}
+<div class="footer-container">
+  <div class="container">
+    <div class="row">
+      {hook h='displayFooter'}
+    </div>
+  </div>
+</div>
+{/block}

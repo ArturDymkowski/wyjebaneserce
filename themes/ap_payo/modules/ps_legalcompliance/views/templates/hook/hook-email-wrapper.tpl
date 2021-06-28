@@ -1,5 +1,4 @@
-<?php
-/**
+{**
  * 2007-2016 PrestaShop
  *
  * NOTICE OF LICENSE
@@ -22,14 +21,20 @@
  *  @copyright  2007-2016 PrestaShop SA
  *  @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  *  International Registered Trademark & Property of PrestaShop SA
- */
+ *}
 
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
-
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
-
-header('Location: ../');
-exit;
+<div style="background-color:#fff;width:650px;font-family:Open-sans,sans-serif;color:#555454;font-size:13px;line-height:18px;margin:auto">
+    <table style="width:100%;margin-top:10px">
+        <tbody>
+            {foreach from=$cms_contents item=content}
+            <tr>
+                <td style="width:20px;padding:7px 0">&nbsp;</td>
+                <td style="padding:7px 0">
+                    {$content nofilter}
+                </td>
+                <td style="width:20px;padding:7px 0">&nbsp;</td>
+            </tr>
+            {/foreach}
+        </tbody>
+    </table>
+</div>
