@@ -1,0 +1,153 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Header 4*/
+.layout-boxed-lg #header.navbar-fixed-top {
+  padding: 0 15px; }
+
+.header_logo {
+  padding: 20px 0; }
+
+.box-logotop .search-widget a.popup-title {
+  padding: 20px 10px; }
+
+.leo-megamenu {
+  position: static; }
+  .leo-megamenu .navbar-nav > li > a {
+    padding-left: 20px;
+    padding-right: 20px; }
+    @media (max-width: 1400px) {
+      .leo-megamenu .navbar-nav > li > a {
+        padding-left: 15px;
+        padding-right: 15px; } }
+
+#header.navbar-fixed-top {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+#header.navbar-fixed-top .header-top {
+  padding: 0; }
+
+header {
+  padding: 0 15px; }
+
+@media (max-width: 991px) {
+  .col-info {
+    margin-bottom: 15px; }
+
+  .box-logotop .search-widget a.popup-title {
+    padding: 10px 10px; }
+
+  .ApMegamenu {
+    padding-top: 7px; } }
+.header-top {
+  padding: 20px 0 20px; }
+
+@media (max-width: 1199px) {
+  .leo-megamenu .navbar-nav > li > a {
+    padding: 28px 13px;
+    font-size: 13px; } }
+#cart-block .header {
+  font-size: 14px; }
+
+@media (min-width: 992px) {
+  .box-logotop .header_logo {
+    text-align: left;
+    margin-bottom: 0; }
+    .rtl .box-logotop .header_logo {
+      text-align: right; } }
+@media (min-width: 992px) {
+  .box-logotop .col-center {
+    text-align: center; }
+    .box-logotop .col-center .ApMegamenu {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left; }
+      .rtl .box-logotop .col-center .ApMegamenu {
+        text-align: right; } }
+
+.popup-over a.popup-title span {
+  display: none; }
+.popup-over a.popup-title i {
+  display: inline-block !important; }
+  .popup-over a.popup-title i.expand-more {
+    display: none !important; }
+
+.popup-over a.popup-title {
+  padding: 20px 10px;
+  white-space: nowrap; }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .popup-over a.popup-title {
+      padding-left: 5px;
+      padding-right: 5px; } }
+
+#search_widget {
+  margin-left: auto; }
+  .rtl #search_widget {
+    margin-right: auto;
+    margin-left: inherit; }
+
+.layout-boxed-lg .popup-over a.popup-title {
+  padding: 20px 5px; }
+.layout-boxed-lg .box-protabs {
+  padding: 50px 0; }
+.layout-boxed-lg .box-protabs .tabs-top > .block_content {
+  padding-top: 30px; }
+.layout-boxed-lg #cart-block .header .hidden-md-down {
+  display: none !important; }
+.layout-boxed-lg #cart-block .header .hidden-lg-up {
+  display: inline-block !important; }
+
+.col-right .popup-over .popup-content {
+  right: 0;
+  left: auto; }
+.col-right #cart-block {
+  float: right; }
+  .rtl .col-right #cart-block {
+    float: left; }
+  .col-right #cart-block .header {
+    padding: 20px 10px; }
+
+@media (max-width: 991px) {
+  .col-right .popup-over {
+    float: right !important;
+    margin: 0; }
+    .col-right .popup-over a.popup-title {
+      padding: 5px 10px; }
+    .col-right .popup-over .popup-content {
+      right: 0;
+      left: auto; }
+  .col-right #cart-block {
+    float: right; }
+    .rtl .col-right #cart-block {
+      float: left; }
+    .col-right #cart-block .header {
+      padding: 5px 10px; } }
+@media (max-width: 480px) {
+  .col-right .popup-over a.popup-title {
+    padding: 5px 5px; } }
+.rtl .col-right .popup-over {
+  float: left !important; }
+  .rtl .col-right .popup-over .popup-content {
+    right: auto;
+    left: 0; }
+
+/*# sourceMappingURL=headerposition1484140965.css.map */

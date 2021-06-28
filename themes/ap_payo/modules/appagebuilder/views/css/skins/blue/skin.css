@@ -1,0 +1,125 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#cart-block .header:hover,
+.popup-over a.popup-title:hover,
+.popup-over .popup-content a:hover,
+.popup-over .popup-content ul li.current a,
+.leo-dynamic-update-layout.current-layout-mod,
+.group-input a.apconfig.active,
+.footer-container a:hover,
+.btn-more:hover,
+a:hover,
+.thumbnail-container .product-price-and-shipping,
+.box-upto .ApRawHtml h3 span,
+.block_newsletter .input-wrapper .btn:hover,
+.popup-over.open .popup-title,
+.popup-over a.popup-title:hover,
+.search-widget button:hover,
+.popup-over:hover .popup-title,
+.leo-megamenu .navbar-nav > li.active > a,
+.leo-megamenu .navbar-nav > li:hover > a,
+.leo-megamenu .navbar-nav > li:focus > a,
+.box-protabs .tabs-top .nav-tabs .nav-link.active,
+.box-protabs .tabs-top .nav-tabs .nav-link:hover,
+.box-protabs .tabs-top .nav-tabs .nav-link.active:focus,
+.breadcrumb li a:hover,
+.pagination .current a,
+.pagination a:hover,
+.pagination a:focus,
+.product-price,
+#product-details .label,
+.leo-megamenu .dropdown-menu a > .menu-title:hover,
+.thumbnail-container .product-title a:hover,
+.bottomnav .popup-over.userinfo-selector .popup-content li a:hover,
+.block-categories .category-sub-menu li > a:hover,
+.block-categories .collapse-icons .add:hover,
+.block-categories .collapse-icons .remove:hover,
+.leo-megamenu .dropdown-menu li a:hover,
+.leo-megamenu .dropdown-menu a:hover > .menu-title,
+.leo-megamenu .dropdown-menu .menu-title a:hover,
+.plist-default .thumbnail-container:hover a.quick-view:hover,
+.viewed-products .thumbnail-container:hover a.quick-view:hover,
+.category-products .thumbnail-container:hover a.quick-view:hover,
+.product-accessories .thumbnail-container:hover a.quick-view:hover,
+#blockcart-modal .product-name,
+.bottomnav #cart-block .header a:hover,
+.box-worldwide .ApRawHtml li i,
+.quickview .arrows i:hover,
+.product-cover .layer .zoom-in,
+.leo-compare-wishlist-button .btn-product:hover,
+.leo-compare-wishlist-button .btn-product.added,
+#product-modal .modal-content .modal-body .arrows i:hover,
+.scroll-box-arrows i:hover,
+#cart-block .header {
+  color: #0000ff; }
+
+.popup-over .popup-content .language-selector li.current img,
+.popup-over .popup-content .language-selector li:hover img,
+.thumbnail-container:hover .product-image,
+.instagram-block img:hover {
+  outline-color: #0000ff; }
+
+#back-top a,
+.enable_fheader.btn_yes:after,
+.btn-menu-wapper .btn-menu:hover,
+.iview-directionNav a:hover,
+.btn-link:hover,
+.btn-more:hover:before,
+.owl-theme .owl-buttons div:hover,
+.plist-special .thumbnail-container .quick-view:hover,
+.box-protabs .tabs-top .nav-tabs .nav-link span:before,
+.sidebar .block .title_block:before,
+.products-sort-order .select-list:hover,
+.product-actions .add-to-cart:hover,
+.group-span-filestyle .btn-default,
+.group-span-filestyle .bootstrap-touchspin .btn-touchspin,
+.bootstrap-touchspin .group-span-filestyle .btn-touchspin,
+.custom-radio input[type="radio"]:checked + span,
+.btn-tertiary:hover,
+.plist-default .thumbnail-container:hover a.quick-view,
+.panelbutton,
+.thumbnail-container .functional-buttons .btn-product:hover,
+.thumbnail-container .functional-buttons .btn-product.added,
+.leo-modal-review .btn,
+.product-actions .add-to-cart,
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active,
+.plist-special .thumbnail-container .add-to-cart:hover,
+.plist-default .thumbnail-container:hover a.quick-view, .viewed-products .thumbnail-container:hover a.quick-view,
+.category-products .thumbnail-container:hover a.quick-view, .product-accessories .thumbnail-container:hover a.quick-view {
+  background: #0000ff; }
+
+.btn-menu-wapper .btn-menu:hover,
+.owl-theme .owl-buttons div:hover,
+.sidebar .block-highlighted,
+.product-images > li.thumb-container > .thumb.selected,
+.product-images > li.thumb-container > .thumb:hover,
+.leo-widget .thumbnail-container:hover .product-image,
+.leo-compare-wishlist-button .btn-product:hover,
+.leo-compare-wishlist-button .btn-product.added,
+#product-modal .modal-content .modal-body .product-images img:hover,
+.leo-modal-review .btn,
+.popup-over .popup-content .language-selector li.current,
+.popup-over .popup-content .language-selector li:hover,
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  border-color: #0000ff; }
+
+/*# sourceMappingURL=skin.css.map */

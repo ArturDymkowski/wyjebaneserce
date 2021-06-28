@@ -1,0 +1,89 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.quickview .modal-dialog {
+  width: calc(100% - 30px);
+  max-width: 64rem; }
+.quickview .modal-content {
+  min-height: 31.25rem; }
+.quickview .modal-header {
+  border: none;
+  padding: 10px; }
+.quickview .modal-body {
+  min-height: 28.88rem; }
+.quickview .modal-footer {
+  border-top: 1px solid rgba(172, 170, 166, 0.3); }
+.quickview .layer {
+  display: none; }
+.quickview .product-cover img {
+  width: 95%; }
+.quickview .arrows-product-fake {
+  display: none; }
+.quickview .images-container {
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+  .quickview .images-container .product-cover {
+    margin: 0 90px 0 0; }
+    .rtl .quickview .images-container .product-cover {
+      margin: 0 0 0 90px; }
+  .quickview .images-container .product-thumb-images {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 80px;
+    z-index: 9; }
+.quickview .product-thumb-images {
+  position: relative; }
+  .quickview .product-thumb-images .slick-list {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .quickview .product-thumb-images .slick-list .slick-slide {
+      padding: 5px 0; }
+.quickview .slick-arrows .slick-arrow {
+  width: 100%;
+  margin: auto;
+  color: #FFFFFF;
+  background: #da8101; }
+  .quickview .slick-arrows .slick-arrow.slick-disabled {
+    opacity: 0.4; }
+  .quickview .slick-arrows .slick-arrow:hover {
+    color: #FFFFFF;
+    background: #000000;
+    font-family: "FontAwesome"; }
+  .quickview .slick-arrows .slick-arrow.slick-next {
+    top: -10px;
+    left: 0;
+    right: 0;
+    bottom: auto; }
+    .quickview .slick-arrows .slick-arrow.slick-next:before {
+      content: "\f106"; }
+  .quickview .slick-arrows .slick-arrow.slick-prev {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -30px; }
+    .quickview .slick-arrows .slick-arrow.slick-prev:before {
+      content: "\f107"; }
+.quickview .social-sharing {
+  margin: 0; }
+
+/*# sourceMappingURL=quickview.css.map */

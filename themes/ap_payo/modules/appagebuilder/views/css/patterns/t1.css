@@ -1,0 +1,25 @@
+
+/* customize for body */ 
+a,.btn-more,.thumbnail-container .product-title a { color:#f00915} 
+a:hover,.btn-more:hover,.thumbnail-container .product-title a:hover { color:#2600fa} 
+
+/* customize for header-nav */ 
+.header-nav .container,.bottomnav #cart-block .header { color:#a30aa3} 
+.header-nav a,.bottomnav .popup-over .popup-title,.bottomnav .popup-over.userinfo-selector .popup-content li a,.popup-over .popup-content a { color:#11ad90} 
+.header-nav a:hover,.bottomnav .popup-over .popup-title:hover,.bottomnav .popup-over.userinfo-selector .popup-content li a:hover,.popup-over .popup-content a:hover { color:#7a7a06} 
+
+/* customize for header-main */ 
+
+/* customize for magemenu */ 
+.leo-megamenu { background-color:#f0ddf0} 
+.leo-megamenu, .leo-megamenu .dropdown-menu .menu-title, .leo-megamenu p,.leo-megamenu .dropdown-menu .menu-title a { color:#fa0ffa} 
+.leo-megamenu .navbar-nav > li > a, .leo-megamenu .navbar-nav > li > a > .menu-title, .leo-megamenu .dropdown-menu li a, .leo-megamenu .dropdown-menu a > .menu-title, .leo-megamenu .dropdown-menu .menu-title a, .leo-widget .product-block .name a,.leo-megamenu .thumbnail-container .product-title a { color:#3dff54} 
+.leo-megamenu .navbar-nav > li > a:hover, .leo-megamenu .navbar-nav > li > a:hover > .menu-title, .leo-megamenu .dropdown-menu li a:hover, .leo-megamenu .dropdown-menu a:hover > .menu-title, .leo-megamenu .dropdown-menu .menu-title a:hover, .leo-widget .product-block .name a:hover,.leo-megamenu .thumbnail-container .product-title a:hover { color:#ea00ff} 
+
+/* customize for footer */ 
+
+/* customize for product */ 
+
+/* customize for modules */ 
+
+/* customize for highlighted-modules */ 

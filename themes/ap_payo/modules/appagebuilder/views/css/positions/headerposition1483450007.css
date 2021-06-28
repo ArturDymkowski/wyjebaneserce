@@ -1,0 +1,48 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Header 1*/
+.col-cart {
+  padding: 0 14px 0 15px; }
+  .rtl .col-cart {
+    padding: 0 15px 0 14px; }
+
+.header-top {
+  padding-bottom: 10px; }
+
+@media (max-width: 1890px) {
+  #header.navbar-fixed-top {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+#header.navbar-fixed-top {
+  max-width: 1860px;
+  margin: auto; }
+
+.layout-boxed-lg #header.navbar-fixed-top {
+  padding: 0 15px; }
+
+@media (max-width: 991px) {
+  .rtl .popup-over.userinfo-selector .popup-content {
+    right: 0;
+    left: auto; } }
+
+/*# sourceMappingURL=headerposition1483450007.css.map */
